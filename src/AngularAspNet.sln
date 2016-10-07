@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{B967610B-B0D8-423E-BB48-656B23798A74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{E8FCAB45-094D-42D1-97A5-F5EF92E3CBAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularAspNet.Web", "Presentation\AngularAspNet.Web\AngularAspNet.Web.csproj", "{12AE9E8B-B714-4917-A8E3-2C34CEE13A2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12AE9E8B-B714-4917-A8E3-2C34CEE13A2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12AE9E8B-B714-4917-A8E3-2C34CEE13A2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12AE9E8B-B714-4917-A8E3-2C34CEE13A2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12AE9E8B-B714-4917-A8E3-2C34CEE13A2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12AE9E8B-B714-4917-A8E3-2C34CEE13A2F} = {E8FCAB45-094D-42D1-97A5-F5EF92E3CBAE}
+	EndGlobalSection
+EndGlobal

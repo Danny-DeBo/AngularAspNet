@@ -1,0 +1,14 @@
+﻿<h1>User List</h1>
+<table class="table table-bordered">
+    <tr ng-repeat="user in $ctrl.users">
+        <td>
+            <button type="button" ng-click="$ctrl.edit(user.Id)">
+                <span class="glyphicon glyphicon-pencil"></span>
+            </button>
+        </td>
+        <td>{{user.Id}}</td>
+        <td>{{user.UserName}}</td>
+        <td>{{user.FirstName}}</td>
+        <td>{{user.LastName}}</td>
+    </tr>
+</table>
